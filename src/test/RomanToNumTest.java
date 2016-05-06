@@ -17,5 +17,11 @@ public class RomanToNumTest {
 			r = rtn.convert("I");
 			assertEquals(1,r);
 		}
+		//Convertir 'II' a 2
+		@Test
+		public void convertirII() {
+			r = rtn.convert("II");
+			assertEquals(2,r);
+		}
 
 }
