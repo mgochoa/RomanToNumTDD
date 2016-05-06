@@ -3,11 +3,12 @@ package main;
 public class RomanToNum {
 
 	public int convert(String roman) {
-		
+		int result=0;
 		if(roman=="II"){
-			return 2;
+			result++;
 		}
-		return 1;
+		result++;
+		return result;
 	}
 
 }
