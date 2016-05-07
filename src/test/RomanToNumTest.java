@@ -23,5 +23,10 @@ public class RomanToNumTest {
 			r = rtn.convert("II");
 			assertEquals(2,r);
 		}
+		//Convertir 'III'
+		public void convertirIII(){
+			r= rtn.convert("III");
+			assertEquals(3, r);
+		}
 
 }

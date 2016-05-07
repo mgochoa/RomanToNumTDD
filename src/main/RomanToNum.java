@@ -4,10 +4,9 @@ public class RomanToNum {
 
 	public int convert(String roman) {
 		int result=0;
-		if(roman=="II"){
+		for(int i=0;i<roman.length();i++){
 			result++;
-		}
-		result++;
+			}
 		return result;
 	}
 
