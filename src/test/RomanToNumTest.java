@@ -66,5 +66,60 @@ public class RomanToNumTest {
 			r= rtn.convert("X");
 			assertEquals(10, r);
 		}
+		
+		@Test
+		public void convertirXIX(){
+			r= rtn.convert("XIX");
+			assertEquals(19, r);
+		}
+		@Test
+		public void convertirXXIX(){
+			r= rtn.convert("XXIX");
+			assertEquals(29, r);
+		}
+		@Test
+		public void convertirXXX(){
+			r= rtn.convert("XXX");
+			assertEquals(30, r);
+		}
+		@Test
+		public void convertirXL(){
+			r= rtn.convert("XL");
+			assertEquals(40, r);
+		}
+		@Test
+		public void convertirXLIX(){
+			r= rtn.convert("XLIX");
+			assertEquals(49, r);
+		}
+		@Test
+		public void convertirL(){
+			r= rtn.convert("L");
+			assertEquals(50, r);
+		}
+		@Test
+		public void convertirLXXVII(){
+			r= rtn.convert("LXXVII");
+			assertEquals(77, r);
+		}
+		@Test
+		public void convertirXC(){
+			r= rtn.convert("XC");
+			assertEquals(90, r);
+		}
+		@Test
+		public void convertirXCIX(){
+			r= rtn.convert("XCIX");
+			assertEquals(99, r);
+		}
+		@Test
+		public void convertirC(){
+			r= rtn.convert("C");
+			assertEquals(100, r);
+		}
+		
+		
+
+
 
 }

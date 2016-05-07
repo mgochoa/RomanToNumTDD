@@ -35,7 +35,7 @@ public class RomanToNum {
 		for(int i=0;i<roman.length();i++){
 			result++;
 			}
-		}*/
+		}*/	
 		return result;
 	}
 	private static final Map<Character, Integer> map_Num_Rom = new HashMap<>();
@@ -43,6 +43,8 @@ public class RomanToNum {
 		map_Num_Rom.put('I', 1);
 		map_Num_Rom.put('V', 5);
 		map_Num_Rom.put('X', 10);
+		map_Num_Rom.put('L', 50);
+		map_Num_Rom.put('C', 100);
 	}
 
 
