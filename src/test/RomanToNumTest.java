@@ -45,5 +45,26 @@ public class RomanToNumTest {
 			r= rtn.convert("VI");
 			assertEquals(6, r);
 		}
+		
+		@Test
+		public void convertirVII(){
+			r= rtn.convert("VII");
+			assertEquals(7, r);
+		}
+		@Test
+		public void convertirVIII(){
+			r= rtn.convert("VIII");
+			assertEquals(8, r);
+		}
+		@Test
+		public void convertirIX(){
+			r= rtn.convert("IX");
+			assertEquals(9, r);
+		}
+		@Test
+		public void convertirX(){
+			r= rtn.convert("X");
+			assertEquals(10, r);
+		}
 
 }
