@@ -40,5 +40,10 @@ public class RomanToNumTest {
 			r= rtn.convert("V");
 			assertEquals(5, r);
 		}
+		@Test
+		public void convertirVI(){
+			r= rtn.convert("VI");
+			assertEquals(6, r);
+		}
 
 }

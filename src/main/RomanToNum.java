@@ -4,7 +4,9 @@ public class RomanToNum {
 
 	public int convert(String roman) {
 		int result=0;
-		if(roman=="V"){
+		if(roman=="VI"){
+			result=6;
+		}else if(roman=="V"){
 			result=5;
 		}else if(roman=="IV"){
 			result= 4;
