@@ -117,7 +117,26 @@ public class RomanToNumTest {
 			r= rtn.convert("C");
 			assertEquals(100, r);
 		}
-		
+		@Test
+		public void convertirCCCVII(){
+			r= rtn.convert("CCCVII");
+			assertEquals(307, r);
+		}
+		@Test
+		public void convertirDLXXXVI(){
+			r= rtn.convert("DLXXXVI");
+			assertEquals(586, r);
+		}
+		@Test
+		public void convertirCMLXXXV(){
+			r= rtn.convert("CMLXXXV");
+			assertEquals(985, r);
+		}
+		@Test
+		public void convertirM(){
+			r= rtn.convert("M");
+			assertEquals(1000, r);
+		}
 		
 
 

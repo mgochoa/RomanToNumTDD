@@ -45,6 +45,8 @@ public class RomanToNum {
 		map_Num_Rom.put('X', 10);
 		map_Num_Rom.put('L', 50);
 		map_Num_Rom.put('C', 100);
+		map_Num_Rom.put('D', 500);
+		map_Num_Rom.put('M', 1000);
 	}
 
 
